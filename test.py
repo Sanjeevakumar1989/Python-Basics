@@ -11,12 +11,12 @@ c = a+b+d
 print(c)
 
 #<--- two input from user and add function --->
-name = float(input("Enter the Name: "))
-name1 = float(input("Enter the name2:   "))
-print(type(name))
-print(name+name1)
+Num1 = float(input("Enter the number1: "))
+Num2 = float(input("Enter the number2:   "))
+print(type(Num1))
+print(Num1+Num2)
 
-#<--- Multiple variable using single line--->
+#<--- Multiple variable using single line input from user--->
 a1,a2,a3=input("enter 3 names: ").split(',')
 print("Name 1:", a1)
 print("Name 2 :", a2)
